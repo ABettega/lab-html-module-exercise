@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
@@ -10,12 +15,15 @@ nav a {
   text-decoration: none;
 }
 
+.top-left {
+  float: left;
+}
+
 .top-links {
   display: inline-block;
   float: right;
   padding: 0;
   margin: 0 20px 0 0;
-  width: 50%;
 }
 
 .top-links li {
@@ -24,5 +32,39 @@ nav a {
 }
 
 .top-links ul {
+}
+
+.amazing-box {
+  margin: 0 auto;
   width: 50%;
+  color: white;
+  background-image: url('images/city-scape.svg');
+  background-position: 0 0;
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  height: 450px;
+}
+
+.amazing-box h1 {
+  text-align: center;
+}
+
+.search-bar {
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.search-bar img {
+  width: 5%;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.search-bar-proper {
+  background-color: rgb(32, 101, 136);
+  height: 100%;
+  width: 800px;
 }
