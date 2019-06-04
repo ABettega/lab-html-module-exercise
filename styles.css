@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -31,9 +32,6 @@ nav a {
   margin: 0 10px;
 }
 
-.top-links ul {
-}
-
 .amazing-box {
   margin: 0 auto;
   width: 50%;
@@ -43,19 +41,21 @@ nav a {
   position: relative;
   background-size: cover;
   width: 100%;
-  height: 450px;
+  height: 300px;
 }
 
 .amazing-box h1 {
-  text-align: center;
+  text-align: left;
 }
 
 .search-bar {
-  padding-top: 15px;
-  padding-left: 15px;
+  padding: 10px 0 0 10px;
+  align-items: center;
+  display: flex;
 }
 
-.search-bar img {
+.npm-logo {
+  padding-right: 15px;
   width: 5%;
 }
 
@@ -64,7 +64,169 @@ nav a {
 }
 
 .search-bar-proper {
-  background-color: rgb(32, 101, 136);
+  background-color: rgb(31, 82, 111);
+  height: 22px;
+  width: 100%;
+  margin-right: 1px;
+  border: 1px solid gray;
+}
+
+.amazing-second {
+  margin: 0 auto;
+  padding-top: 15px;
+  width: 50%;
+}
+
+.amazing-btn {
+  background-color: rgb(240, 146, 51);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0 auto;
+  padding: 14px 20px 14px 20px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  float: left;
+}
+
+.amazing-descr {
+  float: left;
+  width: 50%;
+  font-size: 0.9em;
+}
+
+.text {
+  display: flex;
+  padding-left: 2px;
+  width: 10%;
+  text-align: right;
+  font-size: 0.8em;
+}
+
+.mag-glass {
+  height: 24px;
+  width: 24px;
+  padding-top: 4px;
+}
+
+.search-bear {
+  width: 26px;
+  height: 26px;
+}
+
+#section1 {
+  padding: 50px 0;
+  background-color: rgb(39, 53, 71);
+  color: white;
+}
+
+.collab-img {
+  height: 250px;
+  display: inline-block;
+}
+
+.collab {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.collab h2 {
+  padding-top: 20px;
+}
+
+.collab ul {
+  padding-left: 5%;
+  font-size: 0.8em;
+  line-height: 2.5em;
+}
+
+.collab-btn {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  float: left;
+  padding: 14px 20px 14px 20px;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.figure {
+  float: left;
+  width: 50%;
+}
+
+.borda-div {
+  float: right;
+  width: 50%;
+}
+
+#section2 {
+  background-image: url("images/forklift.svg");
+  background-size: cover;
+  height: 300px;
+  position: relative;
+  padding: 10% 60% 0 10%;
+  color: white;
+}
+
+#section2 h3 {
+  font-size: 2em;
+}
+
+.whatis-btn {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+  text-align: center;
+  text-decoration: none;
+  width: 150px;
+  padding: 14px 20px 14px 20px;
+  border-radius: 100px;
+  box-sizing: border-box;
+}
+
+#section3 {
+  color: darkslategray;
+  background-color: white;
+}
+
+.sec3-first {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sec3-second {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.detail {
+  font-size: 0.8em;
+}
+
+.article {
+  text-align: center;
+  float: left;
   height: 100%;
-  width: 800px;
+  width: 33%;
+  display: block;
 }
